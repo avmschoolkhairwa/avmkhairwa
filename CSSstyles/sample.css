@@ -2,5 +2,17 @@
 	font-family: sans-serif;
 	text-align: center;
 	width: 100%;
-	background-image: url("/images/main_page_heading_background.jpg"): 
+	background-image: url("../images/main_page_heading_background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
+
+#AVM_logo{
+	height: 5em;
+	width: 5em;
+	margin-top: 7PX;
+}
+#main_heading_txt{
+	margin-right: 60px;
+}
+
