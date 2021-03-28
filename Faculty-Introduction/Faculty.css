@@ -21,13 +21,23 @@ body {
     }
 }
 
+#head_master_photo{
+	border-radius: 5px;
+	margin: 5px;
+	border: 2px solid red;
+	height: 16vw;
+	width: 14vw;
+}
+
+#head_master_intro_para{
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
 #main_heading_wlcmPage {
 	font-family: sans-serif;
 	text-align: center;
 	width: 100%;
-	background-image: url("../images/main_page_heading_background.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
 	/*opacity: 1;*/
 }
 
@@ -45,25 +55,11 @@ body {
 #main_heading_txt{
 	margin-right: 60px;
 	font-size: 5vw;
+	font-weight: 400;
 	/*opacity: 1;*/
 }
 
-#home_page_nav_bar{
-	padding: 0 !important;
-}
-
-#nav_start{
-	opacity: 0.5;
-}
-
-.nav-item:hover{
-	background-color: yellow;
-	border-radius: 2px;
-	color: black !important;
-	font-weight: bold;
-	transition-delay: 0.1s;
-}
-
-.nav-item {
-	font-weight: bold;
+#horizontal_line{
+	border: 5px solid black;
+	opacity: 0.2;
 }
