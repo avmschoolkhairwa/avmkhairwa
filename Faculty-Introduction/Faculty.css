@@ -60,6 +60,8 @@ body {
 }
 
 #horizontal_line{
-	border: 5px solid black;
+	border: 4px solid black;
+	border-radius: 10px;
 	opacity: 0.2;
+
 }
