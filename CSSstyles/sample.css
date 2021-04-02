@@ -25,7 +25,7 @@ body {
 	font-family: sans-serif;
 	text-align: center;
 	width: 100%;
-	background-image: url("../images/main_page_heading_background.jpg");
+	background-image: url("../images/logos & others/main_page_heading_background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	/*opacity: 1;*/
@@ -67,3 +67,13 @@ body {
 .nav-item {
 	font-weight: bold;
 }
+
+.carousel-inner img {
+    width: 60vw;
+    height: 30vw;
+  }
+
+  #carousel_photo{
+  	border-style: solid !important;
+  	border-radius: 10px !important;
+  }
