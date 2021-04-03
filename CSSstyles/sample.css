@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+*
 html, body {
   width: 100%;
   height:100%;
@@ -44,9 +46,17 @@ body {
 
 #main_heading_txt{
 	margin-right: 60px;
+	color: transparent;
+  	-webkit-text-stroke: 2px #03a9f4;
+  	font-family: 'Poppins', sans-serif;
 	font-size: 5vw;
-	/*opacity: 1;*/
 }
+
+#main_heading_txt span {
+	color: red;
+	-webkit-text-stroke: 2px red;
+}
+
 
 #home_page_nav_bar{
 	padding: 0 !important;
@@ -73,7 +83,85 @@ body {
     height: 30vw;
   }
 
-  #carousel_photo{
-  	border-style: solid !important;
-  	border-radius: 10px !important;
+#carousel_photo{
+	border-style: solid !important;
+	border-radius: 10px !important;
   }
+
+.list-box 
+{
+	font-family: 'Poppins', sans-serif;
+}
+
+.list-box h2 {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0px !important;
+	background: #30a9f4;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: 700;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.list-box ul 
+{
+	margin: 0px !important;
+	padding: 0px !important;
+	border-bottom: 20px solid #03a9f4;	
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background: #fff;
+}
+
+.list-box ul li
+{
+	list-style: none;
+	padding: 10px;
+	width: 100%;
+	border-radius: 2%;
+	border-left: 10px solid #ff0066;
+	background: #fff;
+	box-shadow: 0 5px 25px rgba(0,0,0,.1);
+	transition: transform 0.5s;
+}
+
+.list-box ul:hover li
+{
+	opacity: 0.2;
+}
+
+.list-box ul li:hover 
+{
+	transform: scale(1.1);
+	z-index: 100;
+	background: #25bcff;
+	border-radius: 2%;
+	border-left: 10px solid #ff0066;
+	box-shadow: 0 5px 25px rgba(0,0,0,.2);
+	color: #fff;
+	opacity: 1;
+}
+
+.list-box ul li span 
+{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: #25bcff;
+	color: #fff;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	transform: translateY(-2px);
+}
+
+.list-box ul li:hover span 
+{
+	background: #fff;
+	color: #25bcff;
+}
