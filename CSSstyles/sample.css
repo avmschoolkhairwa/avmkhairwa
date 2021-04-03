@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 *
-html, body {
+html, body 
+{
   width: 100%;
   height:100%;
 }
 
-body {
+body 
+{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #99ff66, #ffdb4d);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
 
-@keyframes gradient {
+@keyframes gradient 
+{
     0% {
         background-position: 0% 50%;
     }
@@ -23,7 +26,8 @@ body {
     }
 }
 
-#main_heading_wlcmPage {
+#main_heading_wlcmPage 
+{
 	font-family: sans-serif;
 	text-align: center;
 	width: 100%;
@@ -33,40 +37,46 @@ body {
 	/*opacity: 1;*/
 }
 
-#AVM_logo{
+#AVM_logo
+{
 	height: 7vw;
 	width: 7vw;
 	margin-top: 2PX;
 	transition: transform 1s;
 }
 
-#AVM_logo:hover{
+#AVM_logo:hover
+{
 	transform: scale(1.2); 
 }
 
-#main_heading_txt{
+#main_heading_txt
+{
 	margin-right: 60px;
 	color: transparent;
   	-webkit-text-stroke: 2px #03a9f4;
   	font-family: 'Poppins', sans-serif;
-	font-size: 5vw;
+	font-size: 4.8vw;
 }
 
-#main_heading_txt span {
+#main_heading_txt span 
+{
 	color: red;
 	-webkit-text-stroke: 2px red;
 }
 
-
-#home_page_nav_bar{
+#home_page_nav_bar
+{
 	padding: 0 !important;
 }
 
-#nav_start{
+#nav_start
+{
 	opacity: 0.5;
 }
 
-.nav-item:hover{
+.nav-item:hover
+{
 	background-color: yellow;
 	border-radius: 2px;
 	color: black !important;
@@ -74,26 +84,31 @@ body {
 	transition-delay: 0.1s;
 }
 
-.nav-item {
+.nav-item
+{
 	font-weight: bold;
 }
 
-.carousel-inner img {
-    width: 60vw;
+.carousel-inner img 
+{
+    width: 100%;
     height: 30vw;
-  }
+}
 
-#carousel_photo{
+#carousel_photo
+{
 	border-style: solid !important;
 	border-radius: 10px !important;
-  }
+}
 
 .list-box 
 {
+	width: 100%;
 	font-family: 'Poppins', sans-serif;
 }
 
-.list-box h2 {
+.list-box h2
+{
 	color: #fff;
 	text-align: center;
 	margin-bottom: 0px !important;
